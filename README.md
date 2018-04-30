@@ -1,1 +1,3 @@
 # smartyFramework
+这是一个基于smarty3封装的后台管理系统demo.
+本人目的在于学习smarty模板引擎的使用。
