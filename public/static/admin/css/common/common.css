@@ -1,0 +1,123 @@
+html,body{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+main.container-fluid,main.container-fluid .row  {
+    height:100%;
+}
+
+main.container-fluid,main.container-fluid>.row>div{
+    padding:0;
+    padding-right: 5px;
+}
+main.container-fluid{
+    padding-right:15px;
+    background: #fcfcfc;
+}
+
+main.container-fluid .row .main-left {
+    position: relative;
+    height: 100%;
+}
+main.container-fluid .row .main-right {
+    position: relative;
+    bottom: 0;
+    padding-bottom: 50px;
+    height: 100%;
+    overflow-y:scroll;
+    word-break: break-all;
+}
+main.container-fluid .row  .main-content{
+    padding:10px 5px 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*background-color: #f7f7f7;*/
+}
+/*头部*/
+header.container-fluid .modal-header{
+    background-color: #244a6b;
+    padding:5px;
+    line-height: 50px;
+}
+header.container-fluid .modal-header div:nth-child(2){
+    text-align: right;
+}
+header.container-fluid .modal-header div img.protrait{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height:50px;
+    border:solid 1px #d6cef8;
+    display: inline-block;
+}
+header.container-fluid .modal-header div:nth-child(2)>span{
+    display: inline-block;
+}
+/*侧边菜单*/
+aside.side_menu,aside.side_menu>ul{
+    height: 100%;
+}
+
+aside.side_menu ul{
+    padding:0;
+    padding-left: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #e0ebff;
+}
+aside.side_menu>ul li >div{
+    border-bottom:solid 1px #baccf5;
+}
+aside.side_menu>ul>li>div{
+    position: relative;
+    padding-left:20px;
+    padding-right:20px;
+}
+aside.side_menu>ul a{
+    color: #00007a;
+    display: inline-block;
+    width:100%;
+    text-decoration: none;
+}
+aside.side_menu>ul>li>div>a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    word-break: keep-all;
+    overflow: hidden;
+}
+aside.side_menu>ul>li .triangle_padding{
+    display: inline-block;
+    position: absolute;
+    right:0;
+    top:0;
+    width:30px;
+    height:30px;
+}
+aside.side_menu>ul>li .triangle_padding:hover{
+    cursor:pointer;
+}
+aside.side_menu>ul>li .triangle{
+    display: block;
+    width:3px;
+    margin:auto;
+    margin-top: 40%;
+    border-top: 5px solid #ff5d00;
+    border-right:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-left:5px solid transparent;
+}
+aside.side_menu>ul>li>ul{
+    background-color: #eef7fd;
+    display: none;
+}
+aside.side_menu>ul>li>ul>li>div{
+    position: relative;
+    padding-left:30px;
+    padding-right:30px;
+}
